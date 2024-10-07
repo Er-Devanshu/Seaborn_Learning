@@ -106,14 +106,14 @@ Seaborn is built on top of **Matplotlib**, but it abstracts much of the complexi
 
 ## Why Seaborn over Other Libraries?
 
-| Feature                        | Seaborn                               | Other Libraries (Matplotlib, Plotly, Bokeh)                  |
-|--------------------------------|---------------------------------------|-------------------------------------------------------------|
-| **Ease of Use**               | High-level functions for complex plots | More complex syntax, requiring more lines of code          |
-| **Default Aesthetics**        | Beautiful built-in themes and palettes | Requires manual customization for aesthetics                |
-| **Statistical Focus**         | Tailored for statistical visualization | Varies by library; less focused on statistics               |
-| **Integration**                | Seamless integration with Pandas     | Varies; may not work as well with DataFrames                |
-| **Faceting/Subplots**         | Offers `FacetGrid` for easy subplots | Requires more manual setup for subplots                     |
-| **Interactivity**             | Primarily static plots                | Libraries like Plotly and Bokeh are designed for interactivity |
+| Feature                        | Seaborn                               | Matplotlib                        | Plotly                            | Bokeh                            |
+|--------------------------------|---------------------------------------|-----------------------------------|-----------------------------------|----------------------------------|
+| **Ease of Use**               | High-level functions for complex plots | More complex syntax, requires more lines of code | High-level interactive interface, easy for beginners | Similar to Matplotlib but with a focus on interactivity |
+| **Default Aesthetics**        | Beautiful built-in themes and palettes | Requires manual customization for aesthetics | Attractive defaults with interactivity | Basic aesthetics, customizable |
+| **Statistical Focus**         | Tailored for statistical visualization | General-purpose plotting library  | Good for interactive data visualizations | Good for large datasets and streaming data |
+| **Integration with Pandas**   | Seamless integration with Pandas     | Requires manual data preparation  | Works well with Pandas           | Works well with Pandas          |
+| **Faceting/Subplots**         | Offers `FacetGrid` for easy subplots | Requires manual setup for subplots | Supports subplots with ease       | Advanced tools for subplots     |
+| **Interactivity**             | Primarily static plots                | Primarily static plots            | Designed for interactive visualizations | Highly interactive, designed for web applications |
 
 ---
 
